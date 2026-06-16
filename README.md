@@ -6,61 +6,35 @@ This repository contains implementations of fundamental sorting algorithms in Py
 
 ### 1. Bubble Sort
 
-Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order. After each pass, the largest element moves to its correct position at the end of the array.
+Bubble Sort repeatedly compares adjacent elements and swaps them if they are in the wrong order. With each pass, the largest unsorted element moves to its correct position, making it one of the simplest sorting algorithms to understand.
 
 ### 2. Selection Sort
 
-Selection Sort finds the minimum element from the unsorted portion of the array and places it at the beginning. This process is repeated until the entire array is sorted.
+Selection Sort works by repeatedly selecting the smallest element from the unsorted portion of the array and placing it at the beginning. It reduces the number of swaps compared to Bubble Sort and demonstrates the concept of in-place sorting.
 
 ### 3. Insertion Sort
 
-Insertion Sort builds a sorted array one element at a time. Each new element is inserted into its correct position among the previously sorted elements.
+Insertion Sort builds a sorted array one element at a time. Each element is inserted into its correct position among the already sorted elements, making it efficient for small or nearly sorted datasets.
+
+### 4. Merge Sort
+
+Merge Sort is a powerful Divide and Conquer algorithm that recursively divides an array into smaller subarrays, sorts them, and then merges them back together in sorted order. It provides consistent performance with a time complexity of O(n log n), making it suitable for large datasets.
 
 ## Features
 
-* Clean and beginner-friendly Python implementations
-* Easy-to-understand logic and structure
-* Useful for DSA practice and interview preparation
-* Covers fundamental sorting concepts
+* Beginner-friendly Python implementations
+* Well-structured and easy-to-read code
+* Covers fundamental sorting techniques
+* Helps build a strong foundation in DSA
+* Useful for coding interviews and competitive programming preparation
+* Includes both iterative and Divide-and-Conquer based sorting approaches
 
-## Folder Structure
+## Learning Outcomes
 
-```text
-Sorting/
-├── BubbleSort.py
-├── selectionSort.py
-└── insertionSort.py
-```
+By exploring these implementations, you will gain a deeper understanding of:
 
-## How to Run
-
-Run any file using Python:
-
-```bash
-python BubbleSort.py
-python selectionSort.py
-python insertionSort.py
-```
-
-## Learning Objectives
-
-This project helps in understanding:
-
-* Comparison-based sorting algorithms
-* Time and space complexity analysis
-* Array manipulation techniques
-* Algorithmic thinking and problem-solving
-
-## Future Improvements
-
-Additional sorting algorithms may be added in the future, including:
-
-* Merge Sort
-* Quick Sort
-* Heap Sort
-* Counting Sort
-* Radix Sort
-
-## Author
-
-Vishal Yadav
+* Time and Space Complexity Analysis
+* Comparison-Based Sorting Algorithms
+* In-Place vs Non-In-Place Sorting
+* Stable and Unstable Sorting Techniques
+* Problem-Solving and Algorithmic Thinking
